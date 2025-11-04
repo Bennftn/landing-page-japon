@@ -1,103 +1,25 @@
-# Japan Tours Landing Page 🇯🇵
+# Landing Page Voyages Japon
 
-Landing page moderne pour un tour au Japon, créée avec Next.js 14 et Tailwind CSS.
+Une landing page moderne pour une agence de voyage japonaise construite avec Next.js et Tailwind CSS.
 
-## 🚀 Installation
+## Présentation
 
-1. Installe les dépendances :
-```bash
-npm install
-```
+Ce projet présente une landing page entièrement responsive mettant en avant un circuit de 10 jours à travers Osaka, Kyoto et Tokyo. Réalisé comme projet de portfolio pour démontrer des compétences en développement web moderne.
 
-2. Lance le serveur de développement :
-```bash
-npm run dev
-```
+## Stack Technique
 
-3. Ouvre [http://localhost:3000](http://localhost:3000) dans ton navigateur
+- Next.js 14 (App Router)
+- TypeScript
+- Tailwind CSS
+- React Intersection Observer
 
-## 📁 Structure du projet
+## Fonctionnalités
 
-```
-japan-tours/
-├── app/
-│   ├── layout.tsx          # Layout principal
-│   ├── page.tsx            # Page d'accueil
-│   └── globals.css         # Styles globaux avec Tailwind
-├── components/
-│   ├── Hero.tsx            # Section hero avec navigation
-│   ├── About.tsx           # Section à propos avec timeline
-│   ├── Included.tsx        # Services inclus
-│   └── Contact.tsx         # Formulaire de contact
-├── tailwind.config.js      # Configuration Tailwind
-└── package.json
-```
+- Design entièrement responsive
+- Timeline interactive avec animations au scroll
+- Effets glassmorphism
+- Transitions fluides et états hover
+- Formulaire de contact
+- Compteur de progression avec animations
 
-## 🎨 Fonctionnalités
-
-- ✅ Design moderne avec glassmorphism
-- ✅ Responsive (mobile, tablet, desktop)
-- ✅ Navigation smooth scroll
-- ✅ Timeline interactive
-- ✅ Formulaire de contact
-- ✅ Effets hover et transitions
-- ✅ Images Unsplash (à remplacer par les tiennes)
-
-## 🛠️ Technologies
-
-- **Next.js 14** (App Router)
-- **TypeScript**
-- **Tailwind CSS**
-- **React Icons**
-
-## 📝 Personnalisation
-
-### Changer les images :
-
-Remplace les URLs Unsplash dans les composants par tes propres images :
-- Hero.tsx (ligne 8)
-- About.tsx (lignes 8-24)
-- Contact.tsx (ligne 38)
-
-### Changer les couleurs :
-
-Modifie la couleur "japan-gold" dans `tailwind.config.js` :
-```js
-colors: {
-  'japan-gold': '#D4AF37', // Change cette valeur
-}
-```
-
-### Ajouter un backend au formulaire :
-
-Dans `Contact.tsx`, remplace la fonction `handleSubmit` pour envoyer les données à ton API.
-
-## 🚀 Déploiement
-
-### Vercel (recommandé) :
-```bash
-npm run build
-vercel deploy
-```
-
-### GitHub Pages :
-1. Build le projet : `npm run build`
-2. Exporte : `npm run export`
-3. Déploie le dossier `out/`
-
-## 💡 Prochaines améliorations possibles
-
-- [ ] Ajouter un effet parallax
-- [ ] Intégrer une lightbox pour les photos
-- [ ] Ajouter des animations Framer Motion
-- [ ] Connecter le formulaire à une API
-- [ ] Ajouter un système de réservation
-- [ ] Mode sombre/clair
-
-## 📧 Contact
-
-Développé par [Ton nom] - Développeur Web Freelance
-
----
-
-Bon dev ! 🚀
+Benjamin Fontaine
